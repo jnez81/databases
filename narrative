@@ -1,0 +1,19 @@
+This artifact is designed to function as a stock market securities information reporting service and utilizes a RESTful API web-based protocol to retrieve specified company data 
+in conjunction with a MongoDB database of company stocks information.  
+
+This artifact was selected to showcase my abilities and skills with database systems, specifically MongoDB which is a NoSQL document storage system. This artifact incorporates 
+CRUD (create, read, update, and delete) operations that are designed to manipulate documents in the NoSQL database according to user-input.  It also demonstrates the ability to 
+develop a web service application to implement a RESTful application programming interface for the MongoDB database. The improvements made to this artifact consist of incorporating
+MongoDB statements that will update user-defined values for existing documents using the company’s business ID. The original code simply prompted the user to identify which 
+company ticker abbreviation to use in order to update the “volume” value in the document.  Each company document has a large number of values associated with the company’s 
+respective stock market information and prompting the user to identify several specific values to update adds much more functionality and purpose to the program.  The user inputs 
+the business ID into the database and will then prompt the user to select which values to update in the document.  
+
+Several revisions were made to this artifact’s enhancement plan over the previous weeks, all consisting of determining which specific document values to modify in the MongoDB 
+system.  The implementation of prompting the user to identify which business value to update required advanced programming concepts that include the else-if statement in the 
+‘update_one’ method which is designed to identify the requested value and update it in the MongoDB database.
+
+The enhancement process of this artifact did not present many challenges, however there was some additional research required to refresh knowledge of proper language syntax while 
+designing the else-if statement in the ‘updateDocument.py’ function.  A key learning through this process is understanding the importance of documentation and always taking 
+advantage of the ability to research online documentation that greatly benefits software development projects. The practice of documenting software development is also used as a 
+historical reference to the decisions made during its design, and to have a solid reference point other than a few developers who may lose this valuable information as time passes.   
